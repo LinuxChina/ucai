@@ -1,8 +1,13 @@
 /**
- * Created by Administrator on 2017/5/19 0019.
+ * Created by Administrator on 2017/5/22 0022.
  */
 (function () {
-  var app =  new VideoPlayer();
-    app.getVideostream();
-    // app.addEventListener();
+    var add = new context('canvas');
+    var addbtn = document.querySelector('button');
+        addbtn.addEventListener('click',function () {
+            add.add();
+        });
+
+
+
 })();
